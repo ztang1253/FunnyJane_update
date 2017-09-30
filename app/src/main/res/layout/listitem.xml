@@ -6,7 +6,7 @@
     <TextView android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#333333"
+        android:textColor="#ffffff"
         android:layout_gravity="center_vertical"
         android:maxLength="30"
         android:maxLines="1"
@@ -16,7 +16,7 @@
     <TextView android:id="@+id/score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#AA0000"
+        android:textColor="#ffffff"
         android:layout_marginRight="10dp"
         android:layout_gravity="center_vertical"
         android:textSize="22sp" />

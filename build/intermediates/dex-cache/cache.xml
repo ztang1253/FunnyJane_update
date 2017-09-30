@@ -39,15 +39,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Jane/.android/build-cache/006f75f8a56095db84512a8e1c5d85c3b9e9f597/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.1"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="/Users/Jane/Desktop/FunnyJane_update/app/build/intermediates/pre-dexed/debug/classes_4409abdb32dec4107c3c60f3eae804138c3e5a2f.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/Jane/.android/build-cache/fd90529bbbb7374ba4f34835f521bba4eab25970/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -61,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="8c60f6106bbb343477a22340e80ab6142bb77dc8">
+        sha1="290cddf3d0f38358b65bd82da3dd1eed60675e14">
         <dex dex="/Users/Jane/Desktop/FunnyJane_update/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7b0c49f391222e0ebb4390560abdff159ffa01d7/classes.dex" />
     </item>
     <item
@@ -81,6 +72,15 @@
         revision="26.0.1"
         sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
         <dex dex="/Users/Jane/Desktop/FunnyJane_update/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_852a694171b88b3e31aac0828c82b82ceeb7f301.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Jane/.android/build-cache/006f75f8a56095db84512a8e1c5d85c3b9e9f597/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/Jane/Desktop/FunnyJane_update/app/build/intermediates/pre-dexed/debug/classes_4409abdb32dec4107c3c60f3eae804138c3e5a2f.jar" />
     </item>
     <item
         is-multidex="false"
