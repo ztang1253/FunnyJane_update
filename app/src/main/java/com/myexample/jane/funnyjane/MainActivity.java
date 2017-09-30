@@ -56,6 +56,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void click(View view) {
+        if(et_name.getText() == null || "".equals(et_name.getText().toString().trim())){
+            et_name.requestFocus();
+            Toast.makeText(MainActivity.this, "Please enter your name.", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        int age = 0;
+        try {
+            age = Integer.parseInt(et_age.getText().toString());
+        } catch (NumberFormatException e) {
+            et_age.requestFocus();
+            Toast.makeText(MainActivity.this, "Please enter your age.", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
         String name = et_name.getText().toString().trim();
         int id = rg_sex.getCheckedRadioButtonId();
         int sex;
@@ -69,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
             sex = Sex.UNDIFFERENTIATED;
         }
 
-        int age = 0;
+
         try {
             age = Integer.parseInt(et_age.getText().toString());
         } catch (NumberFormatException e) {
